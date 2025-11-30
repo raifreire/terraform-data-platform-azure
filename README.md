@@ -41,6 +41,7 @@ A arquitetura foi estruturada para garantir organização, escalabilidade e vers
 Login no Azure:
 ```sh
 az login
+```
 
 🚀 Execução do Projeto
     1️⃣ Criar o backend remoto (apenas 1 vez)
@@ -80,7 +81,7 @@ az login
     Criar módulos adicionais
 
     Deploy automático por Pull 
-    
+
     
     👨‍💻 Autor
 
