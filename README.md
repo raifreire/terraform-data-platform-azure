@@ -51,23 +51,23 @@ az login
     terraform init
     terraform apply
 ```
-    >> Após a execução, guarde os outputs:
-    backend_rg_name
-    backend_storage_account_name
-    backend_container_name
-    >> Eles serão usados automaticamente no backend remoto dos ambientes.
+
+    -> Após a execução, guarde os outputs:
+        backend_rg_name
+        backend_storage_account_name
+        backend_container_name
+    -> Eles serão usados automaticamente no backend remoto dos ambientes.
 
     2️⃣ Executar um ambiente (ex.: desenvolvimento - dev)
 
 ```sh
-
     cd env/dev
     terraform init
     terraform plan
     terraform apply 
 ```
 
-    >> Os ambientes não dependem uns dos outros, permitindo deploy individual de dev, hml e prod.
+    -> Os ambientes não dependem uns dos outros, permitindo deploy individual de dev, hml e prod.
 
     🔐 Segurança
 
