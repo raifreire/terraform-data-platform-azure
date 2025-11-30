@@ -46,10 +46,11 @@ az login
 🚀 Execução do Projeto
     1️⃣ Criar o backend remoto (apenas 1 vez)
 
+```sh
     cd bootstrap
     terraform init
     terraform apply
-
+```
     >> Após a execução, guarde os outputs:
     backend_rg_name
     backend_storage_account_name
@@ -58,10 +59,14 @@ az login
 
     2️⃣ Executar um ambiente (ex.: desenvolvimento - dev)
 
+```sh
+
     cd env/dev
     terraform init
     terraform plan
-    terraform apply
+    terraform apply 
+```
+
     >> Os ambientes não dependem uns dos outros, permitindo deploy individual de dev, hml e prod.
 
     🔐 Segurança
